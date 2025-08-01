@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is an ecommerce project">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    
+
+
+    <title>Mehedi Express</title>
+</head>
+<body>
+    <!-- nav bar start here -->
+     <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+    <nav id="menu" class="hidden">
+        <ul class="nav-upper flex-space-around">
+            <li class="nav-list">
+                <a class="nav-link" href="index.html">Home</a>                
+            </li>
+            <li class="nav-list">
+                <a class="nav-link" href="register.html">Register</a>                
+            </li>
+            <li class="nav-list">
+                <a class="nav-link" href="login.html">Login</a>                
+            </li>
+            </li>
+            <li class="nav-list">
+                <a class="nav-link" href="/index.html">Logout</a>                
+            </li>
+            <li class="nav-list">
+                <a class="nav-link" href="contact.html">Contact</a>                
+            </li>
+            <li class="nav-list">
+                <a class="nav-link" href="profile.html"><img class="profile-icon" src="images/Mehedi 2023.JPG" alt="profile Icon"></a>                
+            </li>
+        </ul>
+
+                <!-- Lower nav start here -->
+
+        <ul class="nav-lower flex-space-around">
+            <li class="nav-list">
+                <a href="/index.html" class="nav-link nav-brand">
+                    Mehedi Express
+                </a>
+            </li>
+            <li class="nav-list">
+                <a href="/cart.html" class="nav-link">
+                    <span><i class="fa-solid fa-cart-shopping"></i></span>
+                    Cart 2 products - $124.40
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <!-- nav bar end here -->
+
+    <main class="flex-center">
+        <div class="main-content">
+            <section class="product-details flex-center">
+                <div class="product-details-left flex-center">
+                    <img src="images/product1.jpg" alt="product1">
+                </div>
+
+                <div class="product-details-right">
+                    <h3 class="product-name">Sony V-4 Headphone</h3>
+                        <p>
+                            <span class="dot green"></span>
+                            <span class="dot black"></span>
+                            <span class="dot red"></span>
+                        </p>
+
+                        <p class="product-description">
+                            <strong>Description:</strong>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate modi iusto velit facere voluptatibus, impedit, totam tempore optio ex perferendis ipsam in... Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas qui animi at error ipsam iure provident voluptate accusamus non nam maiores, dolor ad deserunt doloribus obcaecati sunt ut. Nam, hic. Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem qui voluptate aspernatur neque eos voluptatibus culpa error, alias, fugiat laboriosam est illum perferendis nostrum nemo iure. Hic atque consectetur beatae.
+                        </p>
+                        <h4 class="product-price">Category: Headphone</h4>
+                        <h4 class="product-price">Price: $299.99</h4>
+                        <p class="product-rating">Rating: 4.8/5</p>
+                        <button class="btn product-button">Add To Cart</button>
+                        <button class="btn product-button">Back To Shopping</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- footer start here -->
+
+    <footer class="footer flex-space-around">
+        <div>
+            <label for="subscribe">Subscribe to Newsletter:</label>
+            <input type="email" id="subscribe" name="subscribe" class="footer-input" placeholder="Your Email Address"/>
+        
+
+        <button class="btn btn-subscribe">Subscribe</button>
+        </div>
+
+        <div class="flex-space-around">
+            <p>&copy; Copyright 2025 Mehedi Express. All rights reseved</p>
+        </div>
+    </footer>
+
+    <!-- footer ends here -->
+     <script src="./script/index.js"></script>
+</body>
+</html>
